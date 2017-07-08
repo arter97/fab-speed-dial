@@ -15,6 +15,7 @@
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/MiniFabLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
@@ -37,6 +38,9 @@
         android:id="@+id/mini_fab"
         style="@style/MiniFab"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:elevation="4dp"
+        app:borderWidth="0dp"
+        />
 
 </LinearLayout>
